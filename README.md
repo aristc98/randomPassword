@@ -17,3 +17,7 @@ Creator: Casey Aristide
 Please refer to license in the repo.
 
 ## Deployed application link
+https://aristc98.github.io/randomPassword/
+
+## What deployed website looks like
+![randomPassScrSht](https://user-images.githubusercontent.com/115967805/204392704-4ed6f596-db9b-4646-a62c-21267f86b692.png)
