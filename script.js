@@ -6,6 +6,7 @@ var numeric= [0,1,2,3,4,5,6,7,8,9];
 var specialChar= [" ","!","#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\"","]","^","_","`","{","|","}","~","\\"];
 var userPref = [];
 var password = [];
+password = (password.join(''));
 // Write password to the #password input
 function writePassword() {
     var passLength = window.prompt("How many characters would you like? Must be at least 8 and cannot exceed 128");
@@ -42,7 +43,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 
   console.log(password);
   console.log(userPref); 
